@@ -1,0 +1,58 @@
+/*   /opt/nodeserver/css/tempGraph.css    */
+
+.grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.area {
+    //fill: lightsteelblue;
+    //fill: lightgrey;
+    fill: NavajoWhite;
+}
+
+.line {
+    fill: no;
+}
+
+.path {
+    fille: no;
+}
+
+.axis {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+div {
+    padding: 25px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+div {
+    align: center;
+    margin: 0 auto;
+    
+}
+
+table, td, tr, th {
+    text-align: center;
+    align: center;
+}
+
+th {
+    border-bottom: thin solid black;

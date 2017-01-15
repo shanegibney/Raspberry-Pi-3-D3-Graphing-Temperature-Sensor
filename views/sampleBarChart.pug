@@ -1,0 +1,21 @@
+extends layout
+block content
+        div#my-visualisation
+	div
+		ul
+			li item 1
+			li iem 2
+		p blah
+		p.
+			kbkhnk
+			nkhnmkh
+		p aaaaaa
+
+	-var x=5
+	div
+		ul
+			-for(var i=0; i<=x; i++) {
+			li= "It is " + i
+			-}
+        script(src='/opt/nodeserver/public/javascripts/sampleBarChart.js')
+

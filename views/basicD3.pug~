@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  p I am basicD3
+
+  h1#click-me Click on me!
+
+  p.hover-me Hover over me!
+
+  p.hover-me OK now hover over here!
+
+  p.hover-me Hover here too!

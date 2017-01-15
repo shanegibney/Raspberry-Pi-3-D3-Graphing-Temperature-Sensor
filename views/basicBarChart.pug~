@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  link(rel='stylesheet' href='stylesheets/basicBarChart.css')
+  div#my-visualisation
+  div
+    svg(width='960' height='1000')
+  script(src='javascripts/basicCircles.js')
+  script(src='javascripts/basicBarChart.js')

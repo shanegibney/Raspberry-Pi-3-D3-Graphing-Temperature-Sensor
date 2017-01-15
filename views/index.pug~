@@ -1,0 +1,20 @@
+extends layout
+extends ../node_modules/jade-bootstrap/layouts/starter
+block content
+	div
+		h1 test
+		ul
+			li item 1
+			li iem 2
+		p blah
+		p.
+			kbkhnk
+			nkhnmkh
+		p aaaaaa
+
+	-var x=5
+	div
+		ul
+			-for(var i=0; i<=x; i++) {
+			li= "It is " + i
+			-}
